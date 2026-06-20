@@ -1,11 +1,7 @@
 # robots.txt for KarisFixit
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /private/
 
-# Sitemap
+# Sitemap locations
+Sitemap: https://karisfixit.com/sitemap-index.xml
 Sitemap: https://karisfixit.com/sitemap.xml
-
-# Crawl delay (optional)
-Crawl-delay: 10
