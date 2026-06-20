@@ -1,7 +1,6 @@
-# robots.txt for KarisFixit
+# Create robots.txt file
+cat > public/robots.txt << 'EOF'
 User-agent: *
 Allow: /
-
-# Sitemap locations
-Sitemap: https://karisfixit.com/sitemap-index.xml
 Sitemap: https://karisfixit.com/sitemap.xml
+EOF
