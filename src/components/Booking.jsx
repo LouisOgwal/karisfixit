@@ -1,4 +1,4 @@
-// Booking.jsx - Removed "Repairs" from KarisFixit, updated location to Sidian Bank
+// Booking.jsx - Updated phone number
 function Booking() {
   return (
     <section
@@ -30,7 +30,7 @@ function Booking() {
             const email = e.target[1].value;
             const issue = e.target[2].value;
 
-            const technicianNumber = "25416084812";
+            const technicianNumber = "254716084812"; // Updated phone number
 
             const message = `
 📱 NEW REPAIR REQUEST

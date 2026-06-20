@@ -1,0 +1,5 @@
+# Redirects for SEO
+/*    /index.html   200
+
+# Redirect www to non-www (or vice versa)
+# https://www.karisfixit.com/* https://karisfixit.com/:splat 301!

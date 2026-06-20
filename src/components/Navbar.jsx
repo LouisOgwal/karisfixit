@@ -1,10 +1,17 @@
-// Navbar.jsx - Removed "Repairs" from KarisFixit
+// Navbar.jsx - With larger logo
+import logo from "../assets/hero-logo.jpg";
+
 function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="size-3 bg-primary animate-pulse" />
+          {/* Larger logo */}
+          <img 
+            src={logo} 
+            alt="KarisFixit Logo" 
+            className="h-12 w-auto" 
+          />
 
           <span
             className="font-bold tracking-tight text-xl"

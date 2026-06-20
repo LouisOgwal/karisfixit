@@ -1,0 +1,12 @@
+# SEO Redirects
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.karisfixit.com [NC]
+RewriteRule ^(.*)$ https://karisfixit.com/$1 [L,R=301]
+
+# Enable compression
+AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
+
+# Cache control
+<FilesMatch "\.(jpg|jpeg|png|gif|ico|svg|webp)$">
+  Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>

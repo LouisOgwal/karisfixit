@@ -1,4 +1,4 @@
-// Location.jsx - Map updated to show Sidian Bank Building, name changed to KarisFixit (no Repairs)
+// Location.jsx - Updated phone number
 function Location() {
   return (
     <>
@@ -30,7 +30,7 @@ function Location() {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
 
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Sidian+Bank+Building+Kamae+Lane+Nairobi+Kenya"
+              href="https://www.google.com/maps/search/?api=1&query=Kamae+Lane+Nairobi+Kenya"
               target="_blank"
               rel="noreferrer"
               className="px-6 py-3 bg-primary text-primary-foreground font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition flex items-center gap-2 justify-center"
@@ -42,7 +42,7 @@ function Location() {
             </a>
 
             <a
-              href="https://wa.me/25416084812"
+              href="https://wa.me/254716084812" // Updated phone number
               target="_blank"
               rel="noreferrer"
               className="px-6 py-3 border border-border text-foreground font-bold uppercase tracking-widest hover:bg-primary hover:text-primary-foreground transition flex items-center gap-2 justify-center"
@@ -70,6 +70,9 @@ function Location() {
                   Sidian Bank Building, Shop A6<br />
                   Nairobi, Kenya
                 </p>
+                <p className="text-sm text-muted-foreground mt-2">
+                  📞 +254 716 084 812
+                </p>
               </div>
             </div>
             <div className="mt-3 pt-3 border-t border-border flex justify-between text-xs text-muted-foreground">
@@ -86,11 +89,11 @@ function Location() {
         </div>
       </section>
 
-      {/* MAP - Updated to show Sidian Bank Building */}
+      {/* MAP */}
       <div className="w-full h-[450px] border-t border-border">
         <iframe
-          title="KarisFixit Location - Sidian Bank Building, Kamae Lane, Nairobi"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.097594500514!2d36.808822!3d-1.286389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17287e6a8c5b%3A0x6b8f5c5e2f5e7d8c!2sSidian%20Bank%20Building%2C%20Kamae%20Lane%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+          title="KarisFixit Location Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.097594500514!2d36.808822!3d-1.286389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17287e6a8c5b%3A0x6b8f5c5e2f5e7d8c!2sKamae%20Lane%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
           className="w-full h-full"
           loading="lazy"
           style={{ border: 0 }}

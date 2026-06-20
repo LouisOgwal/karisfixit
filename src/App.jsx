@@ -1,4 +1,4 @@
-// App.jsx - Already updated to KarisFixit
+// App.jsx - Enhanced SEO with Helmet
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import BrandTicker from "./components/BrandTicker";
@@ -49,11 +49,30 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>KarisFixit — Expert Phone Repair & Restoration</title>
-        <meta
-          name="description"
-          content="Professional phone repair for iPhone, Samsung, Pixel and more at KarisFixit."
-        />
+        <html lang="en" />
+        <title>KarisFixit — Expert Phone Repair & Restoration in Nairobi</title>
+        <meta name="description" content="Professional phone repair for iPhone, Samsung, Pixel and more. Fast, reliable repairs at Kamae Lane, Sidian Bank Building, Nairobi. Book your repair today!" />
+        <meta name="keywords" content="phone repair, iPhone repair, Samsung repair, screen replacement, battery replacement, water damage repair, Nairobi phone repair, KarisFixit" />
+        <link rel="canonical" href="https://karisfixit.com/" />
+        
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://karisfixit.com/" />
+        <meta property="og:title" content="KarisFixit — Expert Phone Repair & Restoration in Nairobi" />
+        <meta property="og:description" content="Professional phone repair for iPhone, Samsung, Pixel and more. Fast, reliable repairs in Nairobi." />
+        <meta property="og:image" content="https://karisfixit.com/og-image.jpg" />
+        <meta property="og:site_name" content="KarisFixit" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="KarisFixit — Expert Phone Repair & Restoration in Nairobi" />
+        <meta name="twitter:description" content="Professional phone repair for iPhone, Samsung, Pixel and more in Nairobi." />
+        <meta name="twitter:image" content="https://karisfixit.com/og-image.jpg" />
+        
+        {/* Additional SEO */}
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="KarisFixit" />
+        <meta name="revisit-after" content="7 days" />
       </Helmet>
 
       <div className="min-h-screen bg-background text-foreground font-display selection:bg-primary selection:text-primary-foreground">
